@@ -1,0 +1,20 @@
+root=/home/countzero/.no-mistakes/worktrees/2e97dbe6fcf4/01M7HKCX4CF948388MM7SW3Q4N
+agy pane pid=3859384 comm=antigravity argv0=$LAB/home/John Doe/.local/share/mise/installs/antigravity-cli/1.5.9/antigravity
+ide pane pid=3854899 comm=antigravity argv0=$LAB/ide/usr/share/antigravity/antigravity
+[harness] fm-harness.sh ancestry agy-pid -> 'comm agy'
+[harness] fm-harness.sh ancestry ide-pid -> ''
+[lock] fm_harness_pid_alive agy -> harness
+[lock] fm_harness_pid_alive ide -> NOT harness
+[tmux] agent_state agy:01M7HKCX4CF948388MM7SW3Q4N -> alive
+[tmux] agent_state ide:01M7HKCX4CF948388MM7SW3Q4N -> ambiguous
+
+=== pre-fix PR head f4e99d14 for comparison ===
+root=$LAB/old
+agy pane pid=3859384 comm=antigravity argv0=$LAB/home/John Doe/.local/share/mise/installs/antigravity-cli/1.5.9/antigravity
+ide pane pid=3854899 comm=antigravity argv0=$LAB/ide/usr/share/antigravity/antigravity
+[harness] fm-harness.sh ancestry agy-pid -> ''
+[harness] fm-harness.sh ancestry ide-pid -> ''
+[lock] fm_harness_pid_alive agy -> NOT harness
+[lock] fm_harness_pid_alive ide -> NOT harness
+[tmux] agent_state agy:01M7HKCX4CF948388MM7SW3Q4N -> ambiguous
+[tmux] agent_state ide:01M7HKCX4CF948388MM7SW3Q4N -> ambiguous

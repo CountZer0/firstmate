@@ -1,0 +1,28 @@
+=== new (target 6e7df0d4) ===
+[missing] fm_backend_source tmux -> rc=1 agy-lib-absent 
+[missing] fm_backend_source herdr -> rc=1 agy-lib-absent 
+[missing] fm_backend_source rex -> rc=1 agy-lib-absent 
+[missing] fm_backend_source tern -> rc=1 agy-lib-absent 
+[missing] fm_backend_source hc -> rc=1 agy-lib-absent 
+[unreadable] fm_backend_source tmux -> rc=1 agy-lib-absent 
+[unreadable] fm_backend_source herdr -> rc=1 agy-lib-absent 
+[unreadable] fm_backend_source rex -> rc=1 agy-lib-absent 
+[unreadable] fm_backend_source tern -> rc=1 agy-lib-absent 
+[unreadable] fm_backend_source hc -> rc=1 agy-lib-absent 
+=== old (pre-fix f4e99d14) ===
+[missing] fm_backend_source tmux -> $LAB/m-old/bin/fm-session-lock-lib.sh: line 31: $LAB/m-old/bin/fm-agy-process-lib.sh: No such file or directory $LAB/m-old/bin/fm-session-lock-lib.sh: line 31: $LAB/m-old/bin/fm-agy-process-lib.sh: No such file or directory rc=0 agy-lib-absent 
+[missing] fm_backend_source herdr -> $LAB/m-old/bin/fm-session-lock-lib.sh: line 31: $LAB/m-old/bin/fm-agy-process-lib.sh: No such file or directory rc=0 agy-lib-absent 
+[missing] fm_backend_source rex -> $LAB/m-old/bin/fm-session-lock-lib.sh: line 31: $LAB/m-old/bin/fm-agy-process-lib.sh: No such file or directory rc=0 agy-lib-absent 
+[missing] fm_backend_source tern -> $LAB/m-old/bin/fm-session-lock-lib.sh: line 31: $LAB/m-old/bin/fm-agy-process-lib.sh: No such file or directory rc=0 agy-lib-absent 
+[missing] fm_backend_source hc -> $LAB/m-old/bin/fm-session-lock-lib.sh: line 31: $LAB/m-old/bin/fm-agy-process-lib.sh: No such file or directory rc=0 agy-lib-absent 
+[unreadable] fm_backend_source tmux -> $LAB/u-old/bin/fm-session-lock-lib.sh: line 31: $LAB/u-old/bin/fm-agy-process-lib.sh: Permission denied $LAB/u-old/bin/fm-session-lock-lib.sh: line 31: $LAB/u-old/bin/fm-agy-process-lib.sh: Permission denied rc=0 agy-lib-absent 
+[unreadable] fm_backend_source herdr -> $LAB/u-old/bin/fm-session-lock-lib.sh: line 31: $LAB/u-old/bin/fm-agy-process-lib.sh: Permission denied rc=0 agy-lib-absent 
+[unreadable] fm_backend_source rex -> $LAB/u-old/bin/fm-session-lock-lib.sh: line 31: $LAB/u-old/bin/fm-agy-process-lib.sh: Permission denied rc=0 agy-lib-absent 
+[unreadable] fm_backend_source tern -> $LAB/u-old/bin/fm-session-lock-lib.sh: line 31: $LAB/u-old/bin/fm-agy-process-lib.sh: Permission denied rc=0 agy-lib-absent 
+[unreadable] fm_backend_source hc -> $LAB/u-old/bin/fm-session-lock-lib.sh: line 31: $LAB/u-old/bin/fm-agy-process-lib.sh: Permission denied rc=0 agy-lib-absent 
+=== target, library intact (control) ===
+[intact] fm_backend_source tmux -> rc=0 agy-lib-loaded 
+[intact] fm_backend_source herdr -> rc=0 agy-lib-loaded 
+[intact] fm_backend_source rex -> rc=0 agy-lib-loaded 
+[intact] fm_backend_source tern -> rc=0 agy-lib-loaded 
+[intact] fm_backend_source hc -> rc=0 agy-lib-loaded 
